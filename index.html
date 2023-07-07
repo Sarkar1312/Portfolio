@@ -1,155 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <title>SURESH NARBAT</title>
-  <style>
-    .bg-primary {
-      background-color:peachpuff;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajvardhan Portfolio</title>
+    <!-- css file  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utlits.css">
+    <!-- font awesome cdn  -->
+    <script src="https://kit.fontawesome.com/c3171e834c.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-primary">
-  <nav class="bg-white shadow-lg">
-    <div class="container mx-auto px-4">
-      <div class="flex items-center justify-between py-4">
-        <a href="#" class="text-xl font-semibold">SURESH NARBAT</a>
-        <button class="text-gray-600 focus:outline-none md:hidden">
-          <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
-            <path fill-rule="evenodd" d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm0 5v2h16V8H4zm0 4v2h16v-2H4zm0 4v2h16v-2H4z"/>
-          </svg>
-        </button>
-        <div class="hidden md:flex space-x-4">
-          <a href="#" class="text-blue-600 hover:text-blue-900">Home</a>
-          <a href="#" class="text-blue-600 hover:text-blue-900">About</a>
-          <a href="#" class="text-blue-600 hover:text-blue-900">Projects</a>
-          <a href="#" class="text-blue-600 hover:text-blue-900">Contact</a>
+<body>
+    <!-- header section start  -->
+    <header>
+        <div class="head-section layout">
+            <div class="nav-bar flex space-between align-center">
+                <div class="logo uppercase f-w-700 letter-spacing2"><span>Rajvardhan</span> Patil</div>
+                <div class="nav-links">
+                   
+                    <ul class="flex f-w-600">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <input type="checkbox" name="checkbox" id="click">
+                <label for="click" class="menu-btn" id="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+            <!-- content  -->
+            <div class="content flex align-center">
+                <!-- left section  -->
+                <div class="left flex2">
+                    <h4 class="uppercase letter-spacing2">I'm <span>Rajvardhan Patil</span> </h4>
+                    <p class="my-t-10">I am a First year Computer Engineering student </p>
+                </div>
+
+                <!-- right section  -->
+                <div class="right flex3">
+                    <img src="C:\Users\Shree\Desktop\Raj patil portfolio\Rajvardhan.png" alt="Raj png">
+                    <div class="color-box"></div>    
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </nav>
+    </header>        
+    <!-- about section start  -->
+    <section class="about-me-sec">
+        <div class="about-sec layout">
+            <h3 class="uppercase pd-t-30 text-center">About Me</h3>
+            <hr class="w55 my-t-10">
 
-  <header class="bg-gray-100 py-20">
-    <div class="container mx-auto px-4">
-      <h1 class="text-4xl font-bold">Welcome to My Portfolio</h1>
-      <p class="mt-2 text-lg text-gray-600">I am a 1st year Electronics & Telecomunication Engineering student</p>
-    </div>
-  </header>
+            <div class="about-content flex justify-center align-center">
+                <!-- left side  -->
+                <div class="left flex2">
+                    <h2 class="uppercase letter-spacing2">Web Desinger</h2>
+                    <p class="my-t-10">Hello! I'm Rajvardhan patil, a 1st year computer science student with a passion for coding and web development.</p>
+                    <p class="my-t-10"></p>I have a strong foundation in programming languages like HTML, CSS, and JavaScript. I'm also familiar with frameworks like React and Bootstrap.</p>
+                    <p class="my-t-10"></p>I enjoy creating visually appealing and user-friendly websites. I am constantly learning and exploring new technologies to enhance my skills and stay up-to-date with the latest trends in web development.</p>
+                    <p class="my-t-10">I'm excited to work on interesting projects and collaborate with fellow developers to create impactful solutions. Feel free to get in touch with me for any opportunities or inquiries.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end  -->
 
-  <section class="py-10">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-8">About Me</h2>
-      <div class="flex flex-col md:flex-row">
+    <!-- portfolio section start  -->
+    <section class="portfolio-sec">
+        <div class="portfolio layout">
+            <h3 class="uppercase text-center pd-30">Projects</h3>
+            <div class="portolio-parent flex justify-center align-center text-center">
+                <div class="portfolio-child">
+                    <img src="asset/digial marketing.jpg" alt="">
+                    <h3>CISCO Course</h3>
+                    <p>I recently completed my CISCO course provided by CISCO networking academy in collaboration with openEDG python institute.</p>
+                    <div class="right flex3">
+                        <img src="C:\Users\Shree\Desktop\Raj patil portfolio\CISCO.png" alt="Raj png">
+                        <div class="color-box"></div>    
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section end  -->
+
+    <!-- experience section start  -->
+    <section class="experience-sec">
+        <div class="experience layout">
+            <h3 class="uppercase pd-30 text-center">Skills</h3>
+            <div class="experience-details flex space-between text-center">
+            
+                <p >Programming: Proficiency in programming languages like C, C++, Java, Python, and others is crucial for computer engineers.I can write efficient and reliable code for various applications. Knowledge of software development methodologies, including requirements gathering, software design, coding, testing, and debugging, is crucial.</p>
+            
+            </div>
+            </div>
+        </div> 
+    </section>
+    <!-- experience section end  -->
+
+    
+
+    <!-- contact-us section start  -->
+    <section class="contact-us-sec">
+        <div class="contact-us layout">
+            <h3 class="text-center uppercase pd-30">Contact us</h3>
+            <div class="contact-details flex space-between align-center">
+                <div class="left-sec">
+                    <h5>Address</h5>
+                    <p>Near MITAOE <br> Alandi, <br>Pune, Maharashtra - 412105</p>
+                </div>
+                <div class="center-sec">
+                    <h5>Contact No.</h5>
+                    <p>Mobile No. +91 8767416470</p>
+                    <h5>Email Id</h5>
+                    <p>rajvardhan.patil@mitaoe.ac.in</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- contact-us section end  -->
+
+    <!-- footer section  -->
+    <footer>
         
-        <div class="md:w-1/2 md:pl-4">
-          <p class="text-lg text-black-70 mb-4">Hello! I'm Suresh Narbat, I am a 1st year computer student specializing in Electronics and Telecommunication (ENTC) branch. I have a strong passion for technology and enjoy exploring the intersection of electronics and communication systems.</p></p>
-          <p class="text-lg text-black-70 mb-4">I have a strong foundation in programming languages like HTML, CSS, and JavaScript. I'm also familiar with frameworks like React and Bootstrap.</p>
-          <p class="text-lg text-black-70 mb-4">I enjoy creating visually appealing and user-friendly websites. I am constantly learning and exploring new technologies to enhance my skills and stay up-to-date with the latest trends in web development.</p>
-          <p class="text-lg text-black-70 mb-4">I'm excited to work on interesting projects and collaborate with fellow developers to create impactful solutions. Feel free to get in touch with me for any opportunities or inquiries.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section class="bg-gray-100 py-20">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-semibold mb-8">Projects</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
-        <div class="bg-white shadow rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-4">Project1</h3>
-          <p>I recently completed my CISCO course provided by CISCO networking academy in collaboration with openEDG python institute.</p>
-
-          <img src="CISCO.jfif" alt="Project 1" class="mt-4">
-        </div>
-       
-      </div>
-    </div>
-
-    <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-semibold mb-8">Projects</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          <div class="bg-white shadow rounded-lg p-6">
-            <h3 class="text-xl font-bold mb-4">Project2</h3>
-            <p>I have completed Projectile motion model in Aplied machanics course</p>
-            <img src="Rocket.jfif" alt="Project 1" class="mt-4">
-          </div>
-         
-        </div>
-      </div>
-  </section>
-
-  <section class="py-20">
-  <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-semibold mb-8">Contact Me</h2>
-    <form id="contact-form" class="max-w-lg">
-      <div class="mb-4">
-        <label for="name" class="block text-gray-700">Name</label>
-        <input type="text" id="name" name="name" class="border border-gray-300 rounded px-4 py-2 w-full">
-      </div>
-      <div class="mb-4">
-        <label for="email" class="block text-gray-700">Email</label>
-        <input type="email" id="email" name="email" class="border border-gray-300 rounded px-4 py-2 w-full">
-      </div>
-      <div class="mb-4">
-        <label for="message" class="block text-gray-700">Message</label>
-        <textarea id="message" name="message" rows="4" class="border border-gray-300 rounded px-4 py-2 w-full"></textarea>
-      </div>
-      <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Submit</button>
-    </form>
-  </div>
-</section>
-
-
-<footer class="bg-gray-900 text-white py-10">
-    <div class="container mx-auto px-4">
-        <div class="w-full md:w-1/2 lg:w-1/4">
-          <h3 class="text-xl font-semibold mb-3">Contact Information</h3>
-          <p class="text-blue-400">Email: suresh.narbat@mitaoe.ac.in</p>
-          <p class="text-blue-400">Phone: 9307748837</p>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/4">
-          <h3 class="text-xl font-semibold mb-3">Follow Me</h3>
-          <div class="flex space-x-4">
-            <a href="#" class="text-blue-400 hover:text-blue-300">
-                <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
-                    <path d="M20.4 2H3.6C2.3 2 1 3.3 1 4.8v14.4c0 1.5 1.3 2.8 2.8 2.8h8.8v-8.8H9.6V12h2.4V9.6c0-2.4 1.4-3.8 3.8-3.8h2.4v3.2h-1.6c-0.4 0-0.8 0.3-0.8 0.8v1.6h2.4l-0.3 2.4h-2.1v8.8h3.2c1.5 0 2.8-1.3 2.8-2.8V4.8C23.2 3.3 21.9 2 20.4 2z" />
-                  </svg>
-                  
-            </a>
-            <a href="#" class="text-blue-400 hover:text-gray-300">
-                <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
-                    <path d="M22.46 5.18c-.81.36-1.68.61-2.6.72.93-.56 1.65-1.45 1.99-2.51-.87.52-1.84.89-2.87 1.09A4.63 4.63 0 0 0 16.5 4c-2.58 0-4.67 2.1-4.67 4.67 0 .36.04.72.12 1.06C8.45 9.62 4.5 7.99 1.86 5.15c-.36.62-.57 1.35-.57 2.13 0 1.53.78 2.89 1.96 3.68-.72 0-1.4-.21-1.98-.53v.06c0 2.14 1.52 3.92 3.53 4.33-.37.1-.76.15-1.16.15-.28 0-.55-.03-.82-.09.56 1.76 2.17 3.03 4.08 3.07-1.49 1.17-3.36 1.86-5.39 1.86-.35 0-.7-.02-1.05-.07 1.92 1.23 4.2 1.95 6.66 1.95 7.99 0 12.37-6.62 12.37-12.37 0-.19 0-.38-.01-.57.85-.62 1.58-1.4 2.17-2.29z"/>
-                  </svg>
-                  
-                  
-            </a>
-            <a href="#" class="text-blue-400 hover:text-blue-300">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-6 w-6 fill-current text-blue-400">
-                    <path d="M12 .297C5.371.297 0 5.668 0 12.297c0 5.442 3.438 10.068 8.207 11.725.6.113.82-.262.82-.581v-2.032c-3.338.727-4.033-1.297-4.033-1.297-.546-1.388-1.334-1.758-1.334-1.758-1.092-.746.082-.731.082-.731 1.206.086 1.843 1.238 1.843 1.238 1.07 1.836 2.807 1.305 3.49.995.109-.775.42-1.305.762-1.605-2.665-.299-5.466-1.332-5.466-5.93 0-1.31.469-2.38 1.235-3.22-.135-.298-.536-1.52.104-3.17 0 0 1.005-.322 3.3 1.23a11.51 11.51 0 0 1 3-.406c1.017.004 2.038.137 3 .406 2.29-1.552 3.293-1.23 3.293-1.23.642 1.65.24 2.872.12 3.17.771.84 1.23 1.91 1.23 3.22 0 4.61-2.807 5.628-5.476 5.92.43.372.817 1.103.817 2.22v3.29c0 .321.218.694.83.58C20.567 22.358 24 17.73 24 12.297 24 5.668 18.629.297 12 .297"/>
-                  </svg>
-                  
-            </a>
-            <a href="#" class="text-blue-400 hover:text-blue-300">
-              <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
-                <path d="M19 2H5C3.35 2 2 3.35 2 5v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3V5c0-1.65-1.35-3-3-3zm1 17c0 .55-.45 1-1 1H5c-.55 0-1-.45-1-1V8h16v11zm0-12H4V5c0-.55.45-1 1-1h14c.55 0 1 .45 1 1v2z"/>
-                <circle cx="8.5" cy="14.5" r="1.5"/>
-                <circle cx="15.5" cy="14.5" r="1.5"/>
-                <path d="M7.5 9A2.5 2.5 0 0 0 5 11.5c0 .73.31 1.38.78 1.84L6 13h1v2H6v5h4.5v-2.05a3.5 3.5 0 0 0 2 0V20H18v-3.16c.47-.46.78-1.1.78-1.84A2.5 2.5 0 0 0 16.5 9h-9zm7 2H16a1.5 1.5 0 0 1 0 3h-1.5v-3zm-6 0H10v3H8.5a1.5 1.5 0 0 1 0-3zm1.5-2h3a1.5 1.5 0 0 1 0 3h-3V9z"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-      <p class="text-center">&copy; 2023 My Portfolio. All rights reserved.</p>
-    </div>
-  </footer>
-  
-  
-
-  <script>
-    // You can add JavaScript code here if needed
-  </script>
-</body>
-</html>
+    </footer>
+</body>   
+    </html>
